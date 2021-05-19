@@ -1,0 +1,22 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    font-size: 40px;
+}
+
+html{
+    font-size: 80px;
+}
+
+h1{
+    font-size: 2rem; /* định nghĩa theo html. trong trường hợp này 1 rem = 40px */
+}
+
+h2{
+    font-size: em /* 1em định nghĩa theo thẻ cha gần nhất */
+}
+
+.Alo{
+    font-size: 40px;
+}
