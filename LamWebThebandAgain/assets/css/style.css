@@ -1,59 +1,173 @@
-/* CSS reset */
-*{
-    padding: 0;
+/* Css reset */
+* {
     margin: 0;
+    padding: 0;
 }
-
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#main{
+.clear{
+    clear:both;
+}
+#id{
 
 }
 
 #header{
-    height: 46.4px;
+    height: 46px;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-#header #navigation {
-    
-}
-
-#header #navigation li {
+#nav{
+    position: relative;
     display: inline-block;
-    
 }
 
-#header #navigation a{
+#nav>li{
+    display: inline-block;
+}
+
+#nav>li>a{
     color: #fff;
     text-decoration: none;
-    line-height: 46.4px;
-    padding: 0px 24px;
     text-transform: uppercase;
-    
+    line-height: 46.5px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0px 24px;
 }
 
-#header #navigation li:hover a{
+
+#nav .nav-child li:hover a,
+#nav>li:hover>a{
     color: #000;
     background-color: #ccc;
-    display: inline-block;
 }
 
-#header #navigation .child {
+#nav li:hover .nav-child{
+    display: block;
+}
+#nav .nav-child{
     display: none;
+    position: absolute;
+    top: 100%;
+    list-style-type: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#nav .nav-child a{
+    color: #000;
+    text-decoration: none;
+    min-width: 132px;
+    line-height: 38px;
+    display: block; 
+    padding: 0px 12px;
+}
 
+#header .search{
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    padding: 0px 24px;
+}
+
+#header .search:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
 
 
 #slider{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/LamWebThebandAgain/assets/img/slider/chicago.jpg') top center/cover no-repeat;
+}
+
+.text-content{
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-heading{
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.text-description{
+    font-size: 15px;
+}
+
+
+#content{
 
 }
 
-#Content{
+.content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 64px ;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
+.content-heading{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-size: 30px;
+
+}
+
+.content-sub-heading{
+    margin-top: 25px;
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+.about-text{
+    text-align: justify;
+    margin: 15px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+#content .image-list{
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 32px 0px;
+}
+
+#content .member{
+    float: right;
+    width: 33.3333%;
+    
+}
+#content .image{
+    border-radius: 4px;
+    width: 154px;
+}
+
+#content .name{
+    margin: 15px;
+    font-size: 15px;
 }
 
 #footer{

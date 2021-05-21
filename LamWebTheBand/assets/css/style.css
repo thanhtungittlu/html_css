@@ -27,36 +27,115 @@ html{
 }
 
 #header{
+    
     height: 46.4px;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
-#header #button li {
+#button{
+    position: relative;
+    display: inline-block;
+}
+
+#button>li {
    display: inline-block;
 }
 
-#header #button li a {
+#button>li>a {
     color: #fff;
     text-decoration: none;
     line-height: 46.4px;
     padding: 0px 24px;
     display: inline-block;
+    text-transform: uppercase;
 }
 
-#header #button li:hover a {
+#button .button-child li:hover a,
+#button>li:hover>a {
     color: #000;
     background-color: #ccc;
 }
-#header #button .button-child {
+
+#button li:hover .button-child{
+    display: block;
+}
+
+#button .button-child{
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     display: none;
+    list-style-type: none;
+    top: 100%;
+    background-color: #fff;
+    
+}
+
+#button li .button-child a {
+    color: #000;
+    width: 100%;
+    text-decoration: none;
+    line-height: 38px;
+    padding: 0px 12px;
+    display: inline-block;
+    min-width: 144px;
+  
+}
+
+#button .icondown{
+    font-size: 12px;
+}
+
+#header .search{
+    float:right ;
+}
+#header .icon-search{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46.4px;
+    padding: 0px 24px;
+    display:inline-block;
+}
+
+#header .icon-search:hover{
+    background-color: #f44336;
+    cursor: pointer;
 }
 
 #slider{
+   margin-top: 46.4px;
+   padding-top: 50%; 
+   background: url('/LamWebTheBand/assets/img/slider/chicago.jpg') top center/cover no-repeat ;
+   position: relative;
+}
 
+#slider .text-content{
+    
+    color: #fff;
+    position: absolute;
+    bottom: 48px;
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+    text-align: center;
+}
+
+#slider .content{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#slider .description{
+    font-size: 14px;
 }
 
 #content{
-
+    
 }
 
 #footer{
