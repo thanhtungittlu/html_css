@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Tạo gốc tọa độ vào thẻ cha gần nhất -->
+        <title>absolute</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+        <style>
+           .box{
+               width: 500px;
+               height: 520px;
+               background-color: #333;
+               position: relative;
+           } 
+           .box-child1{
+               width: 100px;
+               height: 50px;
+               background-color: #fff;
+               position: absolute;
+               top:0;
+               right: 0; 
+           } 
+           .box-child2{
+               background-color: rgba(255,0,0,0.4);
+               position: absolute;
+               top:0;
+               left: 0; 
+               right: 0;
+               bottom: 0; 
+               /* Đè trong suốt lên lớp cha */
+           } 
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div>
+                <div class="box-child1"></div>
+            </div>
+            <div class="box-child2"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+https://www.w3schools.com/w3css/tryw3css_templates_band.htm#contact
+- 1 Phân tích dự án: Có các thành phần nào:
+    - Header
+    - Slider
+    - Content
+        - About
+        - Tour
+        - Contact
+        - image
+        - footer
+    - Footer
+- 2 Dựng base (xây móng)
