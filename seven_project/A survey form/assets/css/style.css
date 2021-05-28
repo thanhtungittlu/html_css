@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0px 0px 20px;
+    box-sizing: border-box;
+    color: #413e3e;
+}
+html,body{
+    font-size: 28px;
+}
+
+.center{
+    text-align: center;
+}
+#main{
+    background-color: rgb(182, 204, 245);
+    padding: 20px  40px;
+}
+.form{
+    background-color:rgb(255, 248, 248);
+    padding: 20px;
+}
+.form-action{
+    margin-left: 650px;
+}
+
+.f-element{
+    min-width: 400px;
+    margin-left: 55px;
+    padding: 10px;
+}
+
+.bd-element{
+    padding: 8px;
+    margin-left: 16px;
+    min-width: 400px;
+}
+
+
+.select{
+    margin-left: 17px;
+    padding: 10px;
+    background-color: #ccc;
+    border: 2px solid #413e3e;
+    min-width: 150px;
+}
+
+.form-action-2{
+    
+    margin-left: 250px;
+}
