@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 36px;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+
+.topic:hover ~ .about{
+    display: block;
+}
+
+.about{
+    display: none;
+}

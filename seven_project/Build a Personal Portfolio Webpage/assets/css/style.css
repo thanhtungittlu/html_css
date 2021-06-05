@@ -1,0 +1,195 @@
+*  {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#main{
+
+
+}
+
+#header{
+    background-color: rgb(151, 18, 18);
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content:flex-end;
+    position: fixed;
+    z-index: 1;
+}
+
+#header .nav{
+    line-height: 72px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    
+}
+
+
+
+#content{
+   padding-top: 72px;
+
+}
+
+
+.home{
+  
+}
+
+.home .image{
+    width: 100%;
+    height: 700px;
+
+}
+
+.home .home-content{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+
+.about{
+    height: 700px;
+    width: 100%;
+    background-color:rgb(80, 70, 70);
+}
+
+.about .list{
+    text-align: center;
+    padding-top: 80px;
+   
+}
+
+.about .list li{
+    color: #fff;
+    font-size: 36px;
+    line-height: 20px;
+    padding: 40px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.mywork{
+    height: 700px;
+    width: 100%;
+    background-color:rgb(14, 10, 63)
+
+}
+
+.mywork-content{
+    padding-top: 100px;
+    font-size: 72px;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    padding-bottom: 50px;
+   
+}
+
+.projects{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+
+}
+.project-child{
+    width: 30%;
+    
+
+}
+
+
+.project-image .image{
+    width: 100%;
+    height: 308px;
+    display: block;
+}
+
+.project-about{
+    background-color:rgb(114, 109, 109);
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.project-about:hover {
+    background-color: rgb(154, 212, 159);
+    
+}
+.project-about a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.last-mywork{
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 10px;
+    background-color: rgb(245, 114, 114);
+    margin-left: 42%;
+    font-size: 20px;
+}
+
+.last-mywork:hover{
+    background-color: red;
+}
+
+
+
+.contact{
+    height: 700px;
+    width: 100%;
+    background-color:rgb(80, 70, 70);
+    text-align: center;
+}
+ 
+.ct-content{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.desciption{
+    font-size: 20px;
+    color: #fff;
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+.socical a {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+
+
+.footer{
+    margin-top: 250px;
+    border-top: 3px solid red ;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
